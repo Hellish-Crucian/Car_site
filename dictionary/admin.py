@@ -19,3 +19,6 @@ class ModelAdmin(admin.ModelAdmin):
 class ColorAdmin(admin.ModelAdmin):
 	pass
 
+@admin.register(models.Car)
+class CarAdmin(admin.ModelAdmin):
+	pass
