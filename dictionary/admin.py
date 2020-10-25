@@ -15,3 +15,7 @@ class MarkAdmin(admin.ModelAdmin):
 class ModelAdmin(admin.ModelAdmin):
 	pass
 
+@admin.register(models.Color)
+class ColorAdmin(admin.ModelAdmin):
+	pass
+
